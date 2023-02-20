@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoLaunchScreenBack" translatesAutoresizingMaskIntoConstraints="NO" id="t2D-TU-8lu">
+                                <rect key="frame" x="86.666666666666686" y="329" width="220" height="219"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="id8-03-um2"/>
+                                    <constraint firstAttribute="height" constant="219" id="sHL-08-Wcc"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoLaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="v4G-vB-xB8">
+                                <rect key="frame" x="94.666666666666686" y="337" width="204" height="198"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="YHv-nE-LGy">
+                                <rect key="frame" x="40" y="595" width="313" height="55"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="I" translatesAutoresizingMaskIntoConstraints="NO" id="krZ-14-aOc">
+                                        <rect key="frame" x="0.0" y="0.0" width="13.666666666666666" height="55"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="C" translatesAutoresizingMaskIntoConstraints="NO" id="uGg-c3-urw">
+                                        <rect key="frame" x="18.666666666666664" y="0.0" width="51.999999999999993" height="55"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="E" translatesAutoresizingMaskIntoConstraints="NO" id="j6u-MR-OPY">
+                                        <rect key="frame" x="75.666666666666671" y="0.0" width="36.333333333333329" height="55"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="R" translatesAutoresizingMaskIntoConstraints="NO" id="FDb-sB-KSJ">
+                                        <rect key="frame" x="116.99999999999999" y="0.0" width="38.333333333333329" height="55"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="O" translatesAutoresizingMaskIntoConstraints="NO" id="QF9-ja-lT7">
+                                        <rect key="frame" x="160.33333333333334" y="0.0" width="56.333333333333343" height="55"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CTWO" translatesAutoresizingMaskIntoConstraints="NO" id="qi1-Ll-IdP">
+                                        <rect key="frame" x="221.66666666666669" y="0.0" width="48.666666666666686" height="55"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="K" translatesAutoresizingMaskIntoConstraints="NO" id="RHF-th-Ime">
+                                        <rect key="frame" x="275.33333333333331" y="0.0" width="37.666666666666686" height="55"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="08Z-OQ-yTh"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="ColorBackgraundLaunchScreen"/>
+                        <constraints>
+                            <constraint firstItem="v4G-vB-xB8" firstAttribute="trailing" secondItem="t2D-TU-8lu" secondAttribute="trailing" constant="-8" id="19d-4l-4Rx"/>
+                            <constraint firstItem="t2D-TU-8lu" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="DWm-ON-L0Q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YHv-nE-LGy" secondAttribute="trailing" constant="40" id="FMb-mR-DOg"/>
+                            <constraint firstItem="v4G-vB-xB8" firstAttribute="leading" secondItem="t2D-TU-8lu" secondAttribute="leading" constant="8" id="RrV-m7-dge"/>
+                            <constraint firstItem="YHv-nE-LGy" firstAttribute="top" secondItem="t2D-TU-8lu" secondAttribute="bottom" constant="47" id="WRc-lm-e35"/>
+                            <constraint firstItem="v4G-vB-xB8" firstAttribute="top" secondItem="t2D-TU-8lu" secondAttribute="top" constant="8" id="kcp-1u-hdo"/>
+                            <constraint firstItem="YHv-nE-LGy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="kcs-Aw-8xr"/>
+                            <constraint firstItem="t2D-TU-8lu" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="kof-nf-qiv"/>
+                            <constraint firstItem="v4G-vB-xB8" firstAttribute="bottom" secondItem="t2D-TU-8lu" secondAttribute="bottom" constant="-13" id="mTS-Dg-OdE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="C" width="50" height="55"/>
+        <image name="CTWO" width="47" height="55"/>
+        <image name="E" width="35" height="55"/>
+        <image name="I" width="13" height="55"/>
+        <image name="K" width="35" height="55"/>
+        <image name="LogoLaunchScreen" width="206" height="200"/>
+        <image name="LogoLaunchScreenBack" width="222" height="221"/>
+        <image name="O" width="54" height="55"/>
+        <image name="R" width="37" height="55"/>
+        <namedColor name="ColorBackgraundLaunchScreen">
+            <color red="0.050980392156862744" green="0.066666666666666666" blue="0.090196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
