@@ -13,6 +13,8 @@
 		DD6A237229A2A46300501F21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6A237029A2A46300501F21 /* LaunchScreen.storyboard */; };
 		DD6A238929A385EE00501F21 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6A238729A385EE00501F21 /* AuthViewController.swift */; };
 		DD6A238A29A385EE00501F21 /* AuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6A238829A385EE00501F21 /* AuthViewController.xib */; };
+		DD6A238E29A4C31900501F21 /* RepositoriesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6A238C29A4C31900501F21 /* RepositoriesListTableViewController.swift */; };
+		DD6A238F29A4C31900501F21 /* RepositoriesListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6A238D29A4C31900501F21 /* RepositoriesListTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DD6A237329A2A46300501F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD6A238729A385EE00501F21 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		DD6A238829A385EE00501F21 /* AuthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthViewController.xib; sourceTree = "<group>"; };
+		DD6A238C29A4C31900501F21 /* RepositoriesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesListTableViewController.swift; sourceTree = "<group>"; };
+		DD6A238D29A4C31900501F21 /* RepositoriesListTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepositoriesListTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			children = (
 				DD6A237929A2A46F00501F21 /* Application */,
 				DD6A237F29A34A3000501F21 /* AuthScreen */,
+				DD6A238B29A4C23400501F21 /* RepositoriesListScreen */,
 				DD6A237C29A2A4CD00501F21 /* Supporting files */,
 			);
 			path = TestTaskIceRock;
@@ -113,6 +118,15 @@
 				DD6A238829A385EE00501F21 /* AuthViewController.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		DD6A238B29A4C23400501F21 /* RepositoriesListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DD6A238C29A4C31900501F21 /* RepositoriesListTableViewController.swift */,
+				DD6A238D29A4C31900501F21 /* RepositoriesListTableViewController.xib */,
+			);
+			path = RepositoriesListScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +190,7 @@
 				DD6A237229A2A46300501F21 /* LaunchScreen.storyboard in Resources */,
 				DD6A238A29A385EE00501F21 /* AuthViewController.xib in Resources */,
 				DD6A236F29A2A46300501F21 /* Assets.xcassets in Resources */,
+				DD6A238F29A4C31900501F21 /* RepositoriesListTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +204,7 @@
 				DD6A236629A2A46000501F21 /* AppDelegate.swift in Sources */,
 				DD6A238929A385EE00501F21 /* AuthViewController.swift in Sources */,
 				DD6A236829A2A46000501F21 /* SceneDelegate.swift in Sources */,
+				DD6A238E29A4C31900501F21 /* RepositoriesListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
