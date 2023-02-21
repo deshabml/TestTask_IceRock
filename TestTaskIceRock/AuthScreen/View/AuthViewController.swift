@@ -35,7 +35,7 @@ class AuthViewController: UIViewController {
         }
         signInButton.layer.cornerRadius = 8
         signInButton.translatesAutoresizingMaskIntoConstraints = false
-//        logInButton.addTarget(self, action: #selector(buttonActionLogIn), for: .touchUpInside)
+        signInButton.addTarget(self, action: #selector(buttonActionSignIn), for: .touchUpInside)
         return signInButton
     }()
 
@@ -62,7 +62,6 @@ extension AuthViewController {
             scrollView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
             signInButton.leadingAnchor.constraint(equalTo: scrollView.safeAreaLayoutGuide.leadingAnchor, constant: 16),
             signInButton.trailingAnchor.constraint(equalTo: scrollView.safeAreaLayoutGuide.trailingAnchor, constant: -16),
-//            signInButton.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor, constant: -300),
             signInButton.topAnchor.constraint(equalTo: scrollView.topAnchor, constant: 398),
             signInButton.heightAnchor.constraint(equalToConstant: 48)
         ])
@@ -94,6 +93,12 @@ extension AuthViewController {
         UIView.animate(withDuration: 0.5, delay: 0, animations: {
             self.authTextField.layer.borderColor = CGColor(red: 33 / 255, green: 38 / 255, blue: 45 / 255, alpha: 1)
         })
+    }
+
+    @objc func buttonActionSignIn() {
+        let rltvc = RepositoriesListTableViewController()
+        print("opa opa")
+        navigationController?.pushViewController(rltvc, animated: true)
     }
 
 }

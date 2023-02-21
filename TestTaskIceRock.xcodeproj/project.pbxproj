@@ -62,7 +62,6 @@
 			children = (
 				DD6A237929A2A46F00501F21 /* Application */,
 				DD6A237F29A34A3000501F21 /* AuthScreen */,
-				DD6A238B29A4C23400501F21 /* RepositoriesListScreen */,
 				DD6A237C29A2A4CD00501F21 /* Supporting files */,
 			);
 			path = TestTaskIceRock;
@@ -107,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				DD6A238029A34B3900501F21 /* View */,
+				DD6A238B29A4C23400501F21 /* RepositoriesListScreen */,
 			);
 			path = AuthScreen;
 			sourceTree = "<group>";
