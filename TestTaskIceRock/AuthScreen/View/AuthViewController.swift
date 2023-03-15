@@ -50,6 +50,16 @@ class AuthViewController: UIViewController {
         autoHideTheKeyboard(view)
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.navigationBar.isHidden = true
+    }
+
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        NotificationCenter.default.removeObserver(self)
+    }
+
 }
 
 extension AuthViewController {
@@ -98,6 +108,7 @@ extension AuthViewController {
     @objc func buttonActionSignIn() {
         let rltvc = RepositoriesListTableViewController()
         print("opa opa")
+//        pushViewController(rltvc, animated: true)
         navigationController?.pushViewController(rltvc, animated: true)
     }
 
